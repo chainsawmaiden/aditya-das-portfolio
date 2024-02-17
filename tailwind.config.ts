@@ -14,6 +14,10 @@ const config: Config = {
         ppneuemontreal: ['var(--font-ppneuemontreal)', 'sans-serif'],
         ppneuebit: ['var(--font-ppneuebit)', 'sans-serif'],
       },
+      maxWidth: {
+        'text': '56rem',
+        'image': '84rem',
+      },
       fontSize: {
         '2xlnm': ['60px', '72px'],
         '2xlmw': ['72px', '72px'],
@@ -30,6 +34,7 @@ const config: Config = {
 
       colors: {
         gray: {
+          50: '#fafafa',
           200: '#a6a6a6',
           400: '#9e9e9e',
           600: '#606060'
