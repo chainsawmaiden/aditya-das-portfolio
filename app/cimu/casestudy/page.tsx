@@ -7,7 +7,7 @@ import loadingAnimation from '@/public/images/cimu/loading-animation.gif'
 export default function CimuCaseStudy() {
   return (
     <ArticlePage src={loadingAnimation}>
-      dfdsaf
+      s
     </ArticlePage>
   )
 }
