@@ -7,11 +7,35 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        ppmondwest: ['var(--font-ppmondwest)', 'serif'],
+        ppneuemontreal: ['var(--font-ppneuemontreal)', 'sans-serif'],
+        ppneuebit: ['var(--font-ppneuebit)', 'sans-serif'],
+      },
+      fontSize: {
+        '2xlnm': ['60px', '72px'],
+        '2xlmw': ['72px', '72px'],
+        xlnm: ['33.5px', '40px'],
+        xlmw: ['40px', '40px'],
+        mdnm: ['20px', '24px'],
+        mdmw: ['23px', '25px'],
+        smnm: ['15px', '18px'],
+        smmw: ['16.5px', '18px'],
+        xsnm: ['12px', '14px'],
+
+        mdnb: ['23px', '16px'],
+      },
+
+      colors: {
+        gray: {
+          200: '#a6a6a6',
+          400: '#9e9e9e',
+          600: '#606060'
+        },
+        white: '#ffffff',
+        black: '#000000',
       },
     },
   },
