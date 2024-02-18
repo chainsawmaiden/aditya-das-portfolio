@@ -24,7 +24,7 @@ const config: Config = {
         xlnm: ['33.5px', '40px'],
         xlmw: ['40px', '40px'],
         mdnm: ['20px', '24px'],
-        mdmw: ['23px', '25px'],
+        mdmw: ['23px', '24px'],
         smnm: ['15px', '18px'],
         smmw: ['16.5px', '18px'],
         xsnm: ['12px', '14px'],
