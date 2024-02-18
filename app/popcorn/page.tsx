@@ -1,7 +1,7 @@
 
 import React from 'react'
 
-import closingGif from '@/public/images/popcorn/closing-gif.GIF'
+import closingGif from '@/public/images/popcorn/closing-gif.GIF' as const;
 import collapsed from '@/public/images/popcorn/collapsed.png'
 import fullSpread from '@/public/images/popcorn/full-spread.png'
 import halfSpread from '@/public/images/popcorn/half-spread.png'
@@ -12,7 +12,7 @@ import logo2 from '@/public/images/popcorn/logo2.png'
 import logo3 from '@/public/images/popcorn/logo3.png'
 import official from '@/public/images/popcorn/official.png'
 import opening from '@/public/images/popcorn/opening.png'
-import openingGif from '@/public/images/popcorn/opening-gif.GIF'
+import openingGif from '@/public/images/popcorn/opening-gif.GIF' as const;
 import popcorn1 from '@/public/images/popcorn/popcorn1.png'
 import popcorn2 from '@/public/images/popcorn/popcorn2.png'
 import popcorn3 from '@/public/images/popcorn/popcorn3.png'
