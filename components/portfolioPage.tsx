@@ -6,7 +6,7 @@ export default function PortfolioPage({ children, }: Readonly<{ children: React.
   return (
     <main className="w-full px-3 font-ppneuemontreal text-mdnm">
       <NavBar />
-      <section className='w-full flex flex-col gap-16'>
+      <section className='w-full flex flex-col gap-8'>
         {children}
       </section>
       <Footer />

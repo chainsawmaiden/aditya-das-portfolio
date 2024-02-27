@@ -74,7 +74,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${ppmondwest.variable} ${ppneuemontreal.variable} ${ppneuebit.variable} w-full max-h-screen max-w-8xl mx-auto overflow-y-auto`}>{children}</body>
+      <body className={`${ppmondwest.variable} ${ppneuemontreal.variable} ${ppneuebit.variable} w-full max-h-screen max-w-[96rem] mx-auto overflow-y-auto`}>{children}</body>
     </html>
   );
 }
