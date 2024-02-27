@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import React from 'react'
-import DividerLight from './dividerLight'
 
 export default function Footer({article}: {article?: boolean}) {
   return (

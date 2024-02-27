@@ -9,7 +9,7 @@ export default function ArticlePage({ children, src}: Readonly<{ children: React
   return (
     <main className="w-full font-ppneuemontreal text-mdnm">
       <ImageFull src={src} video/>
-      <header className='pt-2.5 top-3 left-3 fixed'><ButtonSmall href='.' text='Back' back /></header>
+      <header className='pt-2.5 top-3 left-4 fixed'><ButtonSmall href='.' text='Back' back /></header>
       {children}
       <Footer article />
     </main>
