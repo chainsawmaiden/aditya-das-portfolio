@@ -9,7 +9,7 @@ export default function PortfolioTitle({slug, title1, title2, children, casestud
         <h1 className='font-ppneuemontreal text-xlnm'>{title1} <span className='font-ppmondwest text-xlmw'>{title2}</span></h1>
         {casestudy && <ButtonSmall text='Full Case Study' href={`/${slug}/casestudy`}/>}
       </section>
-      <p className='font-ppneuemontreal text-mdnm'>{children}</p>
+      <p className='font-ppneuemontreal text-mdnm md:pt-1'>{children}</p>
     </TwoColumn>
   )
 }

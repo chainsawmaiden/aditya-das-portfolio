@@ -16,8 +16,8 @@ import Footer from '@/components/footer'
 export default function Home() {
   return (
     <main className="w-full px-4 font-ppneuemontreal text-smnm gap-0 flex flex-col">
-        <NavBar home />
-        <h1 className="md:text-xlnm text-mdnm text-left w-full mr-auto pt-6 pb-12">
+        <NavBar />
+        <h1 className="md:text-xlnm text-mdnm text-left w-full max-w-image mr-auto pb-12">
           <HoverImage src={me}>Aditya Das</HoverImage> is a multidisciplinary <HoverImage src={danceNation}>designer</HoverImage> and engineer based in <HoverImage src={newHaven}>New Haven, CT</HoverImage>. He is passionate about exploring the intersection of <HoverImage src={sculptor}>art</HoverImage> and <HoverImage src={arm}>technology</HoverImage> to tell stories and <HoverImage src={music}>foster human connection</HoverImage>. He has previously designed for <HoverImage src={jam}>17o1 Records</HoverImage> and Cimu. He also does <HoverImage src={bear}>odd jobs</HoverImage> on the side. He is currently working as a product designer at Yale Law School. ↓
         </h1>
       <HomeProjects />
