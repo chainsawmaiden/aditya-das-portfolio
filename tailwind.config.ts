@@ -15,7 +15,7 @@ const config: Config = {
         ppneuebit: ['var(--font-ppneuebit)', 'sans-serif'],
       },
       maxWidth: {
-        'text': '56rem',
+        'text': '48rem',
         'image': '84rem',
       },
       fontSize: {
