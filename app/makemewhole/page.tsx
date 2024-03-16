@@ -6,6 +6,9 @@ import mockup3 from '@/public/images/make-me-whole-again/mockup3.png'
 import mockup4 from '@/public/images/make-me-whole-again/mockup4.png'
 import mockup5 from '@/public/images/make-me-whole-again/mockup5.png'
 
+import behind1 from '@/public/images/make-me-whole-again/behind1.png'
+import behind2 from '@/public/images/make-me-whole-again/behind2.png'
+
 import Gallery from '@/components/gallery'
 import PortfolioTitle from '@/components/portfolioTitle'
 import Img from '@/components/img'
@@ -29,6 +32,9 @@ export default function PopcornPage() {
         <Img src={mockup1} video />
         <ColumnImgs src1={mockup2} src2={mockup4} colvideo/>
         <ColumnImgs src1={mockup3} src2={mockup5} colvideo/>
+        <ImageCaption>Some of my favorite combinations.</ImageCaption>
+        <ColumnImgs src1={behind1} src2={behind2} colvideo/>
+        <ImageCaption>Behind the scenes.</ImageCaption>
       </Gallery>
       <DividerLight />
       
