@@ -1,4 +1,4 @@
-import cimuCover from '@/public/images/home/cimu.png'
+import cimuCover from '@/public/images/home/cimu2.png'
 import popcornCover from '@/public/images/home/popcorn.png'
 import makeMeWholeCover from '@/public/images/home/makemewhole.png'
 
