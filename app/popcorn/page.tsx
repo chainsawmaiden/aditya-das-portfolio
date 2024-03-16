@@ -5,6 +5,8 @@ import closingGif from '@/public/images/popcorn/closing-gif.gif'
 import collapsed from '@/public/images/popcorn/collapsed.png'
 import fullSpread from '@/public/images/popcorn/full-spread.png'
 import halfSpread from '@/public/images/popcorn/half-spread.png'
+import exteriorFront from '@/public/images/popcorn/exterior-front.png'
+import exteriorBack from '@/public/images/popcorn/exterior-back.png'
 import letterboxd1 from '@/public/images/popcorn/letterboxd1.png'
 import letterboxd2 from '@/public/images/popcorn/letterboxd2.png'
 import logo1 from '@/public/images/popcorn/logo1.png'
@@ -40,6 +42,9 @@ export default function PopcornPage() {
       </PortfolioTitle>
       <Gallery>
         <Img src={official} video />
+        <ColumnImgs src1={exteriorFront} src2={exteriorBack} colvideo />
+        <ImageCaption>Front and back exterior of the 3D-folded magazine.</ImageCaption>
+
         <Img src={collapsed} video />
         <ImageCaption>The magazine can then be collapsed to take off the sticker. The orientation is made clear by the cover screencap, which flattens to create one full shot. </ImageCaption>
 

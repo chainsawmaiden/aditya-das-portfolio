@@ -1,5 +1,6 @@
 import cimuCover from '@/public/images/home/cimu.png'
 import popcornCover from '@/public/images/home/popcorn.png'
+import makeMeWholeCover from '@/public/images/home/makemewhole.png'
 
 import { StaticImageData } from 'next/image'
 
@@ -22,5 +23,11 @@ export const homeProjects = [
     slug: 'popcorn',
     cover: popcornCover,
     details: 'Publication Design, Branding / Academic / 2023'
+  },
+  {
+    name: 'Make Me Whole Again',
+    slug: 'makemewhole',
+    cover: makeMeWholeCover,
+    details: 'Kinetic Typeface, Motion Graphics / Academic / 2023'
   },
 ] as homeProjectsType[];
