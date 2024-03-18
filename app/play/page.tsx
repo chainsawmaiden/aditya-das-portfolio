@@ -31,14 +31,17 @@ export default function PopcornPage() {
         </PlayGallery>
 
         <PlayText year='2023' title='Things to Believe In: A Creative Manifesto' description="A web prototype for a communal manifesto for creatives, built from internet comments, posts, and quotes. Different users can upvote/downvote different messages as they choose, and upload their own to be displayed. Content that is more popular grows larger, and unpopular content shrinks in size."/>
+
         <PlayGallery>
           
           <Image src={creative1} alt='Project photo' className='h-full w-auto'/>
-          <div className='w-fit h-full'>
-            <iframe width="965" height="800" src="https://www.youtube.com/embed/9fkLCjQfGiQ?si=pD-OStTagSfMSNP9" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen  className='object-fit h-full'></iframe>
+
+          <div className='h-full aspect-video'>
+            <iframe width="965" height="800" src="https://www.youtube.com/embed/9fkLCjQfGiQ?si=pD-OStTagSfMSNP9" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen  className=' h-full w-full'></iframe>
           </div>
-          <div className='w-fit h-full'>
-            <iframe width="965" height="800" src="https://www.youtube.com/embed/VFO1NJ8xZoY?si=QAOA5Nt5PX2Q-FgF" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen  className='object-fit h-full'></iframe>
+
+          <div className='h-full aspect-video'>
+            <iframe width="965" height="800" src="https://www.youtube.com/embed/VFO1NJ8xZoY?si=QAOA5Nt5PX2Q-FgF" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen  className='h-full w-full'></iframe>
           </div>
 
         </PlayGallery>
