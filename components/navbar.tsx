@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import React from 'react'
 
-export default function NavBar({home}: {home?: boolean}) {
+export default function NavBar({home, article}: {home?: boolean, article?: boolean}) {
   return (
-  <header className={`w-full sticky top-0 z-50  ${home ? 'pb-0' : 'pb-6'} left-0 text-black opacity-50 py-1 font-ppneuebit font-bold text-sm uppercase flex justify-between`}>
+  <header className={`w-full sticky top-0 z-50 ${article && 'px-3'} ${home ? 'pb-0' : 'pb-6'} left-0 text-black opacity-50 py-1 font-ppneuebit font-bold text-sm uppercase flex justify-between`}>
     <Link href='/' className="hover:opacity-80 transition">Work</Link>
     <Link href='/play' className="hover:opacity-80 transition">Play</Link>
     <Link href='/about' className="hover:opacity-80 transition">About</Link>

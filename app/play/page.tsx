@@ -20,10 +20,11 @@ import Image, { StaticImageData } from 'next/image'
 import PlayGallery from '@/components/playGallery'
 import PlayImage from '@/components/playImage'
 import Link from 'next/link'
+import Footer from '@/components/footer'
 
 export default function PopcornPage() {
   return (
-    <main className="w-full px-4 font-ppneuemontreal text-smnm gap-0 flex flex-col">
+    <main className="w-full px-4 font-ppneuemontreal text-smnm gap-0 flex flex-col min-h-screen">
       <NavBar />
       <section className='flex flex-col md:grid grid-cols-[1fr_5fr] gap-y-4 gap-x-12'>
 
@@ -68,8 +69,8 @@ export default function PopcornPage() {
             <iframe width="560" height="315" src="https://www.youtube.com/embed/GPSEP8xgVMI?si=sXOPz1MSsAumbwEJ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen  className=' h-full w-full'></iframe>
           </div>
         </PlayGallery>
-        <div>asdf</div>
       </section>
+      <Footer />
     </main>
   )
 }
