@@ -20,7 +20,11 @@ import ColumnImgs from '@/components/columnImgs'
 import ButtonSmall from '@/components/buttonSmall'
 import ButtonLarge from '@/components/buttonLarge'
 import DividerLight from '@/components/dividerLight'
+import { Metadata } from 'next'
 
+export const metadata: Metadata = {
+  title: "Aditya Das | Cimu",
+};
 
 export default function CimuPage() {
   return (

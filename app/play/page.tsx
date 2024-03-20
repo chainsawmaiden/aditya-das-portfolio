@@ -21,6 +21,11 @@ import PlayGallery from '@/components/playGallery'
 import PlayImage from '@/components/playImage'
 import Link from 'next/link'
 import Footer from '@/components/footer'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: "Aditya Das | Play",
+};
 
 export default function PopcornPage() {
   return (
@@ -63,7 +68,7 @@ export default function PopcornPage() {
           </div>
         </PlayGallery>
 
-        <PlayText year='2022' title='Bluetooth Robotic Arm' >A robotic arm controlled wirelessly by a glove. See a more detailed (but super outdated) write-up <Link href="https://chainsawmaiden.github.io/PHYS_S-12/final-project.html" className='underline'>here</Link>. Special thanks to Nathan Melenbrink and Victoria Shen.</PlayText>
+        <PlayText year='2022' title='Bluetooth Robotic Arm' >A robotic arm controlled wirelessly by a glove. See a more detailed (but super outdated) write-up <Link href="https://chainsawmaiden.github.io/PHYS_S-12/final-project.html" className='underline hover:opacity-80'>here</Link>. Special thanks to Nathan Melenbrink and Victoria Shen.</PlayText>
         <PlayGallery>
           <div className='h-full aspect-video'>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/GPSEP8xgVMI?si=sXOPz1MSsAumbwEJ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen  className=' h-full w-full'></iframe>

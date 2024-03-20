@@ -74,7 +74,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${ppmondwest.variable} ${ppneuemontreal.variable} ${ppneuebit.variable} w-full max-h-screen max-w-[96rem] mx-auto overflow-y-auto`}>{children}</body>
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head>
+      <body className={`${ppmondwest.variable} ${ppneuemontreal.variable} ${ppneuebit.variable} w-full max-h-screen max-w-[96rem] mx-auto overflow-y-auto selection:bg-fuchsia-200`}>{children}</body>
     </html>
   );
 }

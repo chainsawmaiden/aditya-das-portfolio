@@ -50,7 +50,11 @@ import DividerLight from '@/components/dividerLight'
 import Img from '@/components/img'
 import ArticleImageCaption from '@/components/articleImageCaption'
 import ImageCaption from '@/components/imageCaption'
-import ButtonSmall from '@/components/buttonSmall'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: "Aditya Das | Cimu",
+};
 
 export default function CimuCaseStudy() {
   return (

@@ -1,6 +1,11 @@
 import Footer from '@/components/footer'
 import NavBar from '@/components/navbar'
 import React from 'react'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: "Aditya Das | About",
+};
 
 export default function AboutPage() {
   return (

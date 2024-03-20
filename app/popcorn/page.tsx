@@ -32,7 +32,11 @@ import ButtonLarge from '@/components/buttonLarge'
 import DividerLight from '@/components/dividerLight'
 import { off } from 'process'
 import ImageCaption from '@/components/imageCaption'
+import { Metadata } from 'next'
 
+export const metadata: Metadata = {
+  title: "Aditya Das | Popcorn Magazine",
+};
 
 export default function PopcornPage() {
   return (
