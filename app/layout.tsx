@@ -4,7 +4,7 @@ import localFont from '@next/font/local'
 
 
 export const metadata: Metadata = {
-  title: "Aditya Das",
+  title: "Aditya Das | Design",
   description: "Aditya Das is a designer and engineer based in New Haven, CT.",
 };
 
