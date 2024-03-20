@@ -6,6 +6,9 @@ import localFont from '@next/font/local'
 export const metadata: Metadata = {
   title: "Aditya Das | Design",
   description: "Aditya Das is a designer and engineer based in New Haven, CT.",
+  icons: {
+    icon: '/icon.ico',
+  },
 };
 
 const ppmondwest = localFont({
@@ -74,9 +77,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-      </head>
       <body className={`${ppmondwest.variable} ${ppneuemontreal.variable} ${ppneuebit.variable} w-full max-h-screen max-w-[96rem] mx-auto overflow-y-auto selection:bg-fuchsia-200`}>{children}</body>
     </html>
   );
