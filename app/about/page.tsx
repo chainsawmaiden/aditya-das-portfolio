@@ -8,6 +8,7 @@ import Link from 'next/link';
 import Img from '@/components/img';
 
 import me from '@/public/images/home/me.jpg'
+import DividerLight from '@/components/dividerLight';
 
 export const metadata: Metadata = {
   title: "Aditya Das | About",
@@ -41,8 +42,10 @@ export default function AboutPage() {
             <p>(CV coming soon!)</p>
           </section>
 
+          <div className='col-span-full'><DividerLight black /></div>
+
           <section className='flex flex-col gap-4 text-sm leading-4'>
-            <h3 className='font-ppmondwest text-sm font-bold leading-[18px]'>Design Experience</h3>
+            <h3 className='font-ppmondwest text-sm font-bold leading-[18px]'>Experience</h3>
 
             <Experience title='Yale Law School' year='Product Design / 2023-'>
             Designed and developed an interactive website exhibition based on archival data about Civil Rights cases. Currently in development.
@@ -56,7 +59,7 @@ export default function AboutPage() {
           <section className='flex flex-col gap-4 text-sm leading-4'>
             <h3 className='font-ppmondwest text-sm font-bold leading-[18px]'>Research</h3>
 
-            <Experience title='NYU Stern School of Business' year='Student Intern / 2022-23'>
+            <Experience title='NYU Stern School of Business' year='Student Intern / 2022-2023'>
               Designed and built traffic sensors to test effectiveness of educational Micro:bit controllers; research later used in curriculum of NYU undergraduate class.
             </Experience>
 
