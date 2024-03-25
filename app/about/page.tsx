@@ -33,9 +33,9 @@ export default function AboutPage() {
           </section>
 
           <section className='flex flex-col gap-4 bg-red'>
-            <p>Outside of my work, I am the founder and president of <Link className='underline' href='https://stemchests.com/'>STEMChests</Link>, a 501(c)(3) non-profit dedicated to making STEM education accessible for young students in the DC metro area.</p>
+            <p>Outside of my work, I am the founder and president of <Link target='_blank' className='underline' href='https://stemchests.com/'>STEMChests</Link>, a 501(c)(3) non-profit dedicated to making STEM education accessible for young students in the DC metro area.</p>
 
-            <p>I also work on cover art and promotional material for a couple <Link className='underline' href='https://www.instagram.com/p/C42o53fo9Iz/'>musicians</Link>.</p>
+            <p>I also work on cover art and promotional material for a couple <Link target='_blank' className='underline' href='https://www.instagram.com/p/C42o53fo9Iz/'>musicians</Link>.</p>
 
             <p>When I'm not working, you'll probably find me continuing my never-ending Zelda: Breath of the Wild run, playing piano, making a DJ mix, rock climbing, painting, napping in a cafe, staring at my phone, or maybe (just maybe) going on a morning hike.</p>
 
@@ -72,7 +72,7 @@ export default function AboutPage() {
             <h3 className='font-ppmondwest text-sm font-bold leading-[18px]'>Leadership</h3>
 
             <Experience title='STEMChests' year='Product Design / 2022-'>
-            Designed and distributed 1000+ science kits in the DC metro area. See more <Link className='underline' href='https://www.stemchests.com'>here</Link>.  
+            Designed and distributed 1000+ science kits in the DC metro area. See more <Link target='_blank' className='underline' href='https://www.stemchests.com'>here</Link>.  
             </Experience>
 
             <Experience title='Yale Spring Fling' year='Creative Team / 2023-'>
