@@ -69,7 +69,6 @@ export default function PopcornPage() {
         <ImageCaption>Thanks for watching!</ImageCaption>
 
       </Gallery>
-      <DividerLight />
       
       <ButtonLarge href='/makemewhole' text='Next Project'></ButtonLarge>
     </PortfolioPage>

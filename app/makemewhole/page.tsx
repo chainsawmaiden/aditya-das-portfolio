@@ -17,7 +17,11 @@ import ColumnImgs from '@/components/columnImgs'
 import ButtonLarge from '@/components/buttonLarge'
 import DividerLight from '@/components/dividerLight'
 import ImageCaption from '@/components/imageCaption'
+import { Metadata } from 'next'
 
+export const metadata: Metadata = {
+  title: "Aditya Das | Make Me Whole Again",
+};
 
 export default function PopcornPage() {
   return (
@@ -36,7 +40,6 @@ export default function PopcornPage() {
         <ColumnImgs src1={behind1} src2={behind2} colvideo/>
         <ImageCaption>Behind the scenes.</ImageCaption>
       </Gallery>
-      <DividerLight />
       
       <ButtonLarge href='/cimu' text='Next Project'></ButtonLarge>
     </PortfolioPage>

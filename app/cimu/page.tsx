@@ -48,9 +48,8 @@ export default function CimuPage() {
 
         <ButtonSmall href='/cimu/casestudy' text='Read my full case study here' centered></ButtonSmall>
       </Gallery>
-      <DividerLight />
-      
-      <ButtonLarge href='/popcorn' text='Next Project'></ButtonLarge>
+
+      <ButtonLarge href='/popcorn' text='Next Project' caseStudy></ButtonLarge>
     </PortfolioPage>
   )
 }
