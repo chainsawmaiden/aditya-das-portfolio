@@ -71,7 +71,7 @@ export default function AboutPage() {
           <section className='flex flex-col gap-4 text-sm leading-4'>
             <h3 className='font-ppmondwest text-sm font-bold leading-[18px]'>Leadership</h3>
 
-            <Experience title='STEMChests' year='Product Design / 2022-'>
+            <Experience title='STEMChests' year='Founder & President / 2022-'>
             Designed and distributed 1000+ science kits in the DC metro area. See more <Link target='_blank' className='underline' href='https://www.stemchests.com'>here</Link>.  
             </Experience>
 
