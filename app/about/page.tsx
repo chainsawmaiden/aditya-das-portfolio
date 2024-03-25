@@ -27,9 +27,9 @@ export default function AboutPage() {
           <section className='flex flex-col gap-4'>
             <p>Hi, it’s nice to meet you! I’m a designer and engineer living in New Haven, CT, where I study Computing and the Arts at Yale University.</p>
 
-            <p>While conducting student research in engineering labs throughout my high school years, I became fascinated with human centered robotics and strived to build mechanisms that were safe, efficient, and intuitive. While my work now is less mechanical and more digital, I continue to create with these core ideas in mind, and ingrain them in everything I make. I believe that design has the power to resonate on a very personal and human level; it can share stories, build communities, and define cultures.</p>
+            <p>While conducting student research in engineering labs throughout my high school years, I became fascinated with human centered robotics and strived to build mechanisms that were safe, efficient, and intuitive. While my work nowadays is less mechanical and more digital, I continue to create with these core objectives in mind and ingrain them in everything I make. I believe that design has the power to resonate on a very personal and human level; it can share stories, build communities, and define cultures.</p>
 
-            <p>To me, my interests in design and engineering go hand in hand. You face a challenge, you research, you ideate, you iterate. It's a process both analytic and emotional: achieving an objective with love and labor, creativity and care. ♡</p>
+            <p>To me, my interests in design and engineering go hand in hand. You face a challenge, you research, you ideate, you iterate. It's a process both analytic and emotional: solving a task with love and labor, creativity and care. ♡</p>
           </section>
 
           <section className='flex flex-col gap-4 bg-red'>
