@@ -19,7 +19,7 @@ export default function Home() {
         <NavBar />
         <section className='min-h-fit md:min-h-[84vh] flex flex-col justify-end'>
           <h1 className="md:text-xlnm text-mdnm text-left md:w-1/2 w-full mr-auto">
-            <HoverImage src={me}>Aditya Das</HoverImage> is a multidisciplinary <HoverImage src={photoshop}>designer</HoverImage> and <HoverImage src={stackOverflow}>engineer</HoverImage> based in <HoverImage src={newHaven}>New Haven, CT</HoverImage>. He is passionate about exploring the intersection of <HoverImage src={sculptor}>art</HoverImage> and <HoverImage src={arm}>technology</HoverImage> to tell stories and <HoverImage src={music}>foster human connection</HoverImage>. He has previously designed for 17o1 Records and Cimu. He also does <HoverImage src={flx4}>odd jobs</HoverImage> on the side. He is currently working as a product designer at Yale Law School. ↓
+            <HoverImage src={me}>Aditya Das</HoverImage> is a multidisciplinary <HoverImage src={photoshop}>designer</HoverImage> and <HoverImage src={stackOverflow}>engineer</HoverImage> based in <HoverImage src={newHaven}>New Haven, CT</HoverImage>. He is passionate about exploring the intersection of <HoverImage src={sculptor}>art</HoverImage> and <HoverImage src={arm}>technology</HoverImage> to tell stories and support <HoverImage src={music}>communities</HoverImage>. He has previously designed for 17o1 Records and Cimu. He also does <HoverImage src={flx4}>odd jobs</HoverImage> on the side. He is currently working as a product designer at Yale Law School. ↓
           </h1>
           <hr className=' border-solid border-black my-8'></hr>
         </section>
