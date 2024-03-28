@@ -7,7 +7,9 @@ export default function NavBar({home, article}: {home?: boolean, article?: boole
     <Link href='/' className="hover:opacity-80 transition">Work</Link>
     <Link href='/play' className="hover:opacity-80 transition">Play</Link>
     <Link href='/about' className="hover:opacity-80 transition">About</Link>
-    <span><Link href='mailto:aditya.das@yale.edu' target='_blank' className="hover:opacity-80 transition">Email</Link> / <Link href='https://www.linkedin.com/in/aditya-das-me/' target='_blank' className="hover:opacity-80 transition">Linkedin</Link></span>
+    <span><Link href='mailto:aditya.das@yale.edu' target='_blank' className="hover:opacity-80 transition">Email</Link> / 
+    <Link href='https://www.linkedin.com/in/aditya-das-me/' target='_blank' className="hover:opacity-80 transition">Linkedin</Link> / 
+    <Link href="/AdityaDas_Resume.pdf" target='_blank' rel="noopener noreferrer">CV</Link></span>
   </header>
   )
 }
