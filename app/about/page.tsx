@@ -80,7 +80,7 @@ export default function AboutPage() {
             </Experience>
 
             <Experience title='Design at Yale' year='Studio Member / 2023-'>
-            Collaborateds on and managed various projects for Yale's only student-run design studio.   
+            Collaborated on and managed various projects for Yale's only student-run design studio.   
             </Experience>
           </section>
 
