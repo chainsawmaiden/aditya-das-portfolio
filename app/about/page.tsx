@@ -36,7 +36,7 @@ export default function AboutPage() {
 
             <p>When I'm not working, you'll probably find me continuing my never-ending Zelda: Breath of the Wild run, playing piano, making a DJ mix, rock climbing, painting, napping in a cafe, staring at my phone, or maybe (just maybe) going on a morning hike.</p>
 
-            <AboutLink target='_blank' medium href='https://www.stemchests.com'>CV ↗</AboutLink>
+            <AboutLink target='_blank' medium href='https://drive.google.com/file/d/1tyA-QpwFYn8KYfuCqbv7YCm2MDclEOxx/view?usp=sharing'>CV ↗</AboutLink>
           </section>
 
           <div className='col-span-full'><DividerLight black /></div>
