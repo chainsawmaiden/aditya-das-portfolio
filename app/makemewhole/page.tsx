@@ -27,7 +27,7 @@ export default function PopcornPage() {
   return (
     <PortfolioPage>
       <PortfolioTitle title1='A crowdsourced kinetic typeface project: ' title2='Make Me Whole Again' slug='popcorn'>
-      I gave 20 people some 7x10 grids and an open challenge: create a pixelated alphabet by shading in the squares. I then compiled and combined their typefaces, placing one person's "interpretation" on the top and another person's on the bottom. The results varied: some combinations were beautiful and shockingly compatible, while others mashed together to create unreadable, semi-abstract forms. The typeface serves both as a tribute to individuality and uniqueness, while also showing the beauty of combining the minds of two strangers. Below is a typographic poster created from this experiment.
+      I gave 20 people a set of 7x10 grids and an open challenge: create a pixelated alphabet by shading in the squares. I then compiled and combined their typefaces, placing one person's "interpretation" on the top and another person's on the bottom. The results varied: some combinations were beautiful and shockingly compatible, while others mashed together to create unreadable, semi-abstract forms. The typeface serves both as a tribute to individuality and uniqueness, while also showing the beauty of combining the minds of two strangers. Below is a typographic poster created from this experiment.
       </PortfolioTitle>
       <Gallery>
       <div className='w-full h-screen'>

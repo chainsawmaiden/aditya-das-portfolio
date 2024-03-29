@@ -26,7 +26,7 @@ export default function AboutPage() {
           <section className='flex flex-col gap-4'>
             <p>Hi, it’s nice to meet you! I’m a designer and engineer living in New Haven, CT, where I study Computing and the Arts at Yale University.</p>
 
-            <p>While conducting student research in engineering labs throughout my high school years, I became fascinated with human centered robotics and strived to build mechanisms that were safe, efficient, and intuitive. While my work nowadays is less mechanical and more digital, I continue to create with these core goals in mind. I believe that design has the power to resonate on a very personal and human level; it can share stories, build communities, and define cultures.</p>
+            <p>I conducted student research in engineering labs throughout my high school years. This sparked my fascination with human-computer interaction, and I strived to build robotic mechanisms that were efficient, intuitive, and safe. While my work nowadays is less mechanical and more digital, I continue to create with these core goals in mind. I believe that design has the power to resonate on a very personal and human level; it can strengthen stories, empower communities, and even define cultures.</p>
 
             <p>To me, my interests in design and engineering go hand in hand. You face a challenge, you research, you ideate, you iterate. It's a process both analytic and emotional: solving a task with love and labor, creativity and care. ♡</p>
           </section>
@@ -73,11 +73,15 @@ export default function AboutPage() {
               </Experience>
             </AboutLink>
 
-            <Experience title='Yale Spring Fling' year='Creative Team / 2023 -'>
-            </Experience>
+            <AboutLink target='_blank' href='https://www.yalespringfling.com'>
+              <Experience title='Yale Spring Fling' year='Creative Team / 2023 -'>
+              </Experience>
+            </AboutLink>
 
-            <Experience title='Design at Yale' year='Board Member / 2023 -'>
-            </Experience>
+            <AboutLink target='_blank' href='https://www.designatyale.com'>
+              <Experience title='Design at Yale' year='Board Member / 2023 -'>
+              </Experience>
+            </AboutLink>
           </section>
 
           <section className='flex flex-col text-sm leading-4 gap-1'>
