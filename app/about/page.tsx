@@ -28,7 +28,7 @@ export default function AboutPage() {
 
             <p>I conducted student research in engineering labs throughout my high school years. This sparked my fascination with human-computer interaction, and I strived to build robotic mechanisms that were efficient, intuitive, and safe. While my work nowadays is less mechanical and more digital, I continue to create with these core goals in mind. I believe that design has the power to resonate on a very personal and human level; it can strengthen stories, empower communities, and even define cultures.</p>
 
-            <p>To me, my interests in design and engineering go hand in hand. You face a challenge, you research, you ideate, you iterate. It's a process both analytic and emotional: solving a task with love and labor, creativity and care. ♡</p>
+            <p>To me, my interests in design and engineering go hand in hand. It's a process both analytic and emotional: I face a challenge, I research, I ideate, I iterate. I make everything with love and labor, creativity and care. ♡</p>
           </section>
 
           <section className='flex flex-col gap-4'>
