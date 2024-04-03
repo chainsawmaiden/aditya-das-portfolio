@@ -32,7 +32,7 @@ export default function AboutPage() {
           </section>
 
           <section className='flex flex-col gap-4'>
-            <p>Outside of my work, I am the founder and president of <AboutLink target='_blank' href='https://stemchests.com/'>STEMChests</AboutLink>, a 501(c)(3) non-profit dedicated to making STEM education accessible for young students in the DC metro area. I also work on cover art and promotional material for a couple <AboutLink target='_blank' href='https://www.instagram.com/p/C42o53fo9Iz/'>musicians</AboutLink>.</p>
+            <p>Outside of my work, I am the founder and president of <AboutLink target='_blank' href='https://stemchests.com/'>STEMChests</AboutLink>, a 501(c)(3) non-profit dedicated to making STEM education accessible for young students in the DC metro area. In a way, this was my first true experience with branding and identity: creating packaging and kit materials that were both affordable and marketable. I also work on cover art and promotional material for a couple <AboutLink target='_blank' href='https://www.instagram.com/p/C42o53fo9Iz/'>musicians</AboutLink>.</p>
 
             <p>When I'm not working, you'll probably find me continuing my never-ending Zelda: Breath of the Wild run, playing piano, making a DJ mix, rock climbing, painting, napping in a cafe, staring at my phone, or maybe (just maybe) going on a morning hike.</p>
 
