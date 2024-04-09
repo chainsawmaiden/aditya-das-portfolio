@@ -26,7 +26,9 @@ export default function AboutPage() {
           <section className='flex flex-col gap-4'>
             <p>Hi, it’s nice to meet you! I’m a designer and engineer living in New Haven, CT, where I study Computing and the Arts at Yale University.</p>
 
-            <p>I conducted student research in engineering labs throughout my high school years. This sparked my fascination with human-computer interaction, and I strived to build robotic mechanisms that were efficient, intuitive, and safe. While my work nowadays is less mechanical and more digital, I continue to create with these core goals in mind. I believe that design has the power to resonate on a very personal and human level; it can strengthen stories, empower communities, and even define cultures.</p>
+            <p>I come from a background in tech and business. During high school, I conducted student research in engineering labs, which sparked my fascination with human-computer interaction. I strived to build robotic mechanisms that were efficient, intuitive, and safe. While my work nowadays is less mechanical and more digital, I continue to create with these core goals in mind. I believe that design has the power to resonate on a very personal and human level; it can strengthen stories, empower communities, and even define cultures.</p>
+
+            <p>I end up wearing a lot of hats when I work. While my most recent jobs are officially in product design, I often end up playing a product manager role as well. Not to mention, I'm able to build a website here and there (I made this one, at least).</p>
 
             <p>To me, my interests in design and engineering go hand in hand. It's a process both analytic and emotional: I face a challenge, I research, I ideate, I iterate. I make everything with love and labor, creativity and care. ♡</p>
           </section>
