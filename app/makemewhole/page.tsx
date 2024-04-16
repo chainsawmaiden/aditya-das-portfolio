@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   title: "Aditya Das | Make Me Whole Again",
 };
 
-export default function PopcornPage() {
+export default function MakeMeWholeAgainPage() {
   return (
     <PortfolioPage>
       <PortfolioTitle title1='A crowdsourced kinetic typeface project: ' title2='Make Me Whole Again' slug='popcorn'>
@@ -41,7 +41,7 @@ export default function PopcornPage() {
         <ImageCaption>Behind the scenes.</ImageCaption>
       </Gallery>
       
-      <ButtonLarge href='/cimu' text='Next Project'></ButtonLarge>
+      <ButtonLarge href='/manifesto' text='Next Project'></ButtonLarge>
     </PortfolioPage>
   )
 }
