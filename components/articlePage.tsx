@@ -11,7 +11,7 @@ export default function ArticlePage({ children, src}: Readonly<{ children: React
     <main className="w-full font-ppneuemontreal text-mdnm">
       <NavBar article />
       <ImageFull src={src} video/>
-      <header className='pt-1.5 top-8 left-4 fixed opacity-50'><ButtonSmall href='.' text='Back' back /></header>
+      <header className='pt-1.5 top-[2.125rem] left-4 fixed opacity-50'><ButtonSmall href='.' text='Back' back /></header>
       {children}
       <div className='w-full flex justify-center'><ButtonSmall href='.' text='Take me back' back /></div>
       <Footer article />
